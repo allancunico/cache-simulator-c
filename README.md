@@ -25,11 +25,11 @@ This project is a **cache memory simulator** written in C. It models a simplifie
 Edit these parameters in `main()` to change cache behavior:
 
 ```c
-cache->politica_write = 1;        // 0 = Write-through, 1 = Write-back
-cache->politica_subs = 1;         // 0 = Random, 1 = LRU
-cache->vias_associacao = 2;       // Number of lines per set (associativity)
-cache->tam_linha = 64;            // Line/block size in bytes
-cache->tamanho_total_cache = 8192; // Total cache size in bytes
+cache->politica_write = 1;           // 0 = Write-through, 1 = Write-back
+cache->politica_subs = 1;            // 0 = Random, 1 = LRU
+cache->vias_associacao = 2;          // Number of lines per set (associativity)
+cache->tam_linha = 64;               // Line/block size in bytes
+cache->tamanho_total_cache = 8192;   // Total cache size in bytes
 ```
 
 ---
