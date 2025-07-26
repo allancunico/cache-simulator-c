@@ -1,6 +1,6 @@
 # Cache Memory Simulator in C++
 
-This project is a **cache memory simulator** written in C++. It models a simplified CPU cache using configurable parameters such as write policy, replacement policy, associativity, and line size. The simulator processes memory access traces and computes performance metrics like hit/miss rates and average access time.
+This project is a **cache memory simulator** written in C++, it was developed as part of a assignment at Universidade de Caxias do Sul(UCS). It models a simplified CPU cache using configurable parameters such as write policy, replacement policy, associativity, and line size. The simulator processes memory access traces and computes performance metrics like hit/miss rates and average access time.
 
 ---
 
