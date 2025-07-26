@@ -52,6 +52,6 @@ A quick overview of the key files in this project:
 
 | File                    | Description                                      |
 |-------------------------|--------------------------------------------------|
-| `cache_simulator.c`     | Main source code that implements the cache logic |
+| `cache_simulator.cpp`   | Main source code that implements the cache logic |
 | `oficial.cache`         | Input trace file containing memory operations    |
 | `README.md`             | Project documentation (this file)                |
